@@ -1,0 +1,19 @@
+{
+  "type": "component",
+  "description": "Dark theme option picker component",
+  "icon": "Form",
+  "settings": [
+    {
+      "type": "text",
+      "key": "options",
+      "label": "Options",
+      "required": true,
+      "placeholder": "Chair 1,Footer 1,Combo"
+    },
+    {
+      "type": "text",
+      "key": "value",
+      "label": "Selected Value"
+    }
+  ]
+}
