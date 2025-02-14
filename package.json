@@ -1,0 +1,28 @@
+{
+  "name": "budibase-component-optionpicker",
+  "version": "1.0.0",
+  "description": "Dark theme option picker component for Budibase",
+  "main": "dist/plugin.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "budibase",
+    "component",
+    "optionpicker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@budibase/types": "^2.0.0",
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.49.0"
+  },
+  "dependencies": {}
+}
